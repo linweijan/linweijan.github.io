@@ -3,9 +3,38 @@
 <head>
  <meta charset="UTF-8">
  <title>我的網頁</title>
+	 <style>
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 150px;
+		}
+		li a {
+			display: block;
+			color: #000;
+			padding: 8px 16px;
+			text-decoration: none;
+		}
+		li a:hover:not(.xxx){
+			background-color: #555;
+			color: white;
+			}
+		.xxx {
+			background-color: #4CAF50;
+			color: white;
+		}
+	</style>
 </head>
 <body>
  <p>學號：spp5438 </p>
  <P>姓名：我是老林 </P>
+ <ul>
+  <li><a  class="xxx" href="index.html">Home</a></li>
+  <li><a href="a01.html">DOM程式作業</a></li>
+  <li><a href="b01.html">Canvas程式作業</a></li>
+  <li><a href="c01.html">SVG 程式作業</a></li>
+  <li><a href="d01.html">JS Form程式作業</a></li>
+</ul>
  </body>
 </html>
